@@ -1,6 +1,6 @@
 // Produtos extraídos do catálogo em PDF. Nomes descritivos provisórios (só os "Virgínia"
 // vêm do catálogo); preço null = "Consultar valor", como no catálogo atual.
-const WHATSAPP = "5561985621004";
+const WHATSAPP = "61000000000";
 
 const categorias = [
   { slug: "todas",     nome: "Todas" },

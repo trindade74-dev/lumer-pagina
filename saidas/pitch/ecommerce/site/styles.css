@@ -200,15 +200,13 @@ a:focus-visible, button:focus-visible, .cat:focus-visible {
   background: var(--card-bg);
 }
 
-/* Container central com largura máxima: em telas muito largas a foto não
-   precisa esticar além do seu enquadramento original — sobra fundo nas
-   laterais em vez de cortar o topo (os dedos) pra caber na altura. */
+/* Sempre encostada nas laterais da página. A altura segue só a proporção
+   da foto (sem max-height) — assim, em telas largas, o banner fica mais
+   alto em vez de cortar o topo (os dedos) pra caber numa altura fixa. */
 .banner-frame {
   position: relative;
   width: 100%;
-  max-width: 1740px;
   aspect-ratio: 1448 / 436; /* mesma proporção da foto, sem cortar a mão */
-  margin: 0 auto;
 }
 
 .banner-img {
