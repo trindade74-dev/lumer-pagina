@@ -57,7 +57,7 @@ if (!produto) {
         <div class="produto-detalhes">
           <p><strong>Material:</strong> Prata 925</p>
           <p><strong>Garantia:</strong> contra defeitos de fabricação</p>
-          <p><strong>Envio:</strong> pra todo o Brasil</p>
+          <p><strong>Envio:</strong> DF e entorno</p>
           <p><strong>Cuidados:</strong> evite perfume, creme e água — guarde num local seco</p>
         </div>
 
